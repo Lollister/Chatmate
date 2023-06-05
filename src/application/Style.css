@@ -1,0 +1,39 @@
+.vbox_Title{
+-fx-background-color: #ff9966;
+}
+
+.vbox_Lobby{
+-fx-background-color: #DBCAFE;
+-fx-border-style: solid;
+}
+
+.vbox_Login{
+-fx-background-color: #46239E;
+}
+
+.vbox_Login_Window{
+-fx-background-color: #DBCAFE;
+-fx-border-style: solid;
+}
+
+.vbox_Chat{
+-fx-background-color: #DBCAFE;
+-fx-border-style: solid;
+}
+
+.label_User{
+-fx-font-weight: bold;
+}
+
+.text-area {
+    text-area-background: black ;
+-fx-text-fill: #DBCAFE;
+}
+
+.text-area .content {
+    -fx-background-color: text-area-background ;
+}
+
+.custom {
+  -fx-control-inner-background: black;
+}
