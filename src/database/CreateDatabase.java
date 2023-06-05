@@ -17,9 +17,9 @@ public class CreateDatabase {
 	}
 	
 	private static void createSampleUser() {
-		String url = "jdbc:mysql://localhost:3306/SchachGPT";
-        String username = "root";
-        String password = "lorenz";
+		String url = "jdbc:mysql://localhost:3306/Chatmate";
+        String username = "";
+        String password = "";
 
         try {
             // Treiber registrieren
@@ -51,8 +51,8 @@ public class CreateDatabase {
 	private static void createDB() {
 		
 		String url = "jdbc:mysql://localhost:3306/";
-        String username = "root";
-        String password = "lorenz";
+        String username = "";
+        String password = "";
 
         try {
             // Treiber registrieren
@@ -61,7 +61,7 @@ public class CreateDatabase {
             // Verbindung herstellen
             Connection connection = DriverManager.getConnection(url, username, password);
             
-            String createDatabaseQuery = "CREATE DATABASE SchachGPT";
+            String createDatabaseQuery = "CREATE DATABASE Chatmate";
             
             // Statement erstellen
             Statement statement = connection.createStatement();
@@ -83,9 +83,9 @@ public class CreateDatabase {
 	
 	private static void createTables() {
 		
-		String url = "jdbc:mysql://localhost:3306/SchachGPT";
-        String username = "root";
-        String password = "lorenz";
+		String url = "jdbc:mysql://localhost:3306/Chatmate";
+        String username = "";
+        String password = "";
 
         try {
             // Treiber registrieren

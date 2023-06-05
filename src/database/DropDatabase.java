@@ -9,8 +9,8 @@ public class DropDatabase {
 
 	public static void main(String[] args) {
 		String url = "jdbc:mysql://localhost:3306/";
-        String username = "root";
-        String password = "lorenz";
+        String username = "";
+        String password = "";
 
         try {
             // Treiber registrieren
@@ -19,7 +19,7 @@ public class DropDatabase {
             // Verbindung herstellen
             Connection connection = DriverManager.getConnection(url, username, password);
             
-            String createDatabaseQuery = "DROP DATABASE SchachGPT";
+            String createDatabaseQuery = "DROP DATABASE Chatmate";
             
             // Statement erstellen
             Statement statement = connection.createStatement();

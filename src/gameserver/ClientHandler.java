@@ -111,9 +111,9 @@ public class ClientHandler extends Thread{
 		
 		JSONObject params = new JSONObject();
 		 
-	 	String url = "jdbc:mysql://localhost:3306/SchachGPT";
-        String username = "root";
-        String password = "lorenz";
+	 	String url = "jdbc:mysql://localhost:3306/Chatmate";
+        String username = "";
+        String password = "";
 
         try {
             // Treiber registrieren
@@ -156,9 +156,9 @@ public class ClientHandler extends Thread{
 	private boolean isValidCredentials(String ip_username, String ip_password) {
 		boolean success = false;
 		 
-	 	String url = "jdbc:mysql://localhost:3306/SchachGPT";
-        String username = "root";
-        String password = "lorenz";
+	 	String url = "jdbc:mysql://localhost:3306/Chatmate";
+        String username = "";
+        String password = "";
 
         try {
             // Treiber registrieren

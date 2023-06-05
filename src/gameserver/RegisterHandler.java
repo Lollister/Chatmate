@@ -72,9 +72,9 @@ public class RegisterHandler extends Thread {
 		 
 		 	boolean success = false;
 		 
-		 	String url = "jdbc:mysql://localhost:3306/SchachGPT";
-	        String username = "root";
-	        String password = "lorenz";
+		 	String url = "jdbc:mysql://localhost:3306/Chatmate";
+	        String username = "";
+	        String password = "";
 
 	        try {
 	            // Treiber registrieren
